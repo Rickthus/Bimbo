@@ -1,0 +1,181 @@
+body{
+	background-color: #fffaf2;
+	font-family: "Nunito", sans-serif;
+	color: #333333;
+}
+
+header{
+	background-color: #ffffff;
+	border-bottom: 4px solid #e2231a;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.logo{
+	max-width: 180px;
+}
+
+.navbar .nav-link{
+	color: #1b3d8f;
+	font-weight: 700;
+	font-size: 1.1rem;
+}
+
+.navbar .nav-link:hover{
+	color: #e2231a;
+}
+
+.navbar .actual{
+	color: #e2231a;
+}
+
+.typ{
+	font-family: "Fredoka", sans-serif;
+	color: #1b3d8f;
+}
+
+h1,h2,h4{
+	font-family: "Fredoka", sans-serif;
+	text-align: center;
+	color: #1b3d8f;
+}
+
+h1{
+	margin-top: 3%;
+}
+
+.parr{
+	text-align: center;
+}
+
+.banner{
+	background-color: #1b3d8f;
+	color: white;
+	align-items: center;
+	padding: 3%;
+	margin-top: 2%;
+}
+
+.banner h1{
+	color: white;
+}
+
+.banner p{
+	text-align: center;
+}
+
+main{
+	margin-bottom: 4%;
+}
+
+.foto{
+	width: 100%;
+}
+
+.caja{
+	background-color: #ffffff;
+	padding: 4%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.parr > article{
+	margin-bottom: 16px;
+}
+
+.caja i{
+	font-size: 3rem;
+	color: #e2231a;
+}
+
+.btn-bimbo{
+	background-color: #e2231a;
+	color: white;
+	font-weight: 700;
+}
+
+.btn-bimbo:hover,
+.btn.btn-bimbo:active{
+	background-color: #4fb3ff;
+	color: #1b3d8f;
+}
+
+.pro{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	align-items: center;
+	background-color: #ffffff;
+	padding: 2%;
+}
+
+.producto{
+	border-left: 6px solid #e2231a;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.producto h2,
+.producto h4{
+	text-align: left;
+}
+
+.producto h4{
+	color: #e2231a;
+	font-size: 1.4rem;
+	margin-bottom: 12px;
+}
+
+.producto p{
+	margin-bottom: 0;
+	line-height: 1.7;
+	color: #555555;
+}
+
+.img-pro{
+	display: block;
+	max-height: 220px;
+	max-width: 100%;
+	margin: auto;
+}
+
+.img-pedido{
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+@media (max-width: 991px){
+	.img-pedido{
+		max-width: 200px;
+	}
+}
+
+.for{
+	padding: 4%;
+}
+
+.for .form-group{
+	margin-bottom: 3%;
+}
+
+footer{
+	text-align: center;
+	color: white;
+	background-color: #1b3d8f;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-top: 4%;
+}
+
+footer h5{
+	font-family: "Fredoka", sans-serif;
+	color: #ffd200;
+}
+
+footer a{
+	color: white;
+	font-size: 2rem;
+	margin: 0 8px;
+}
